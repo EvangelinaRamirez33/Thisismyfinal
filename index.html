@@ -27,6 +27,28 @@
 		font-weight: 300;
 		font-style: normal;
 	}
+	.accordian {
+		
+	background-color: aliceblue;
+	color: aqua;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: thin;
+	text-align: left;
+	outline: #060505;
+	font-size: 15px;
+	transition: 0.4s;
+	}
+	.active, .accordian:hover {
+		background-color: #ccc;
+	}
+	.panel {
+		padding: 0 18px;
+		display: none;
+		background-color: white;
+		overflow: hidden;
+	}
 	</style>
 	
 <title>Thisismyfinal</title>
@@ -38,6 +60,21 @@
 	</head>
 	
 	<body background-image: background="images/cmyk ridge3.jpg;">
+		
+	<button class="accordian">Products & Services</button>
+		<div>
+		<div class="tk-ff-basic-gothic-pro"; panel>
+			</div>
+	
+		<button class="accordian">About</button>
+		<div>
+		<div class="tk-ff-basic-gothic-pro"; panel>
+			</div>
+			
+		<button class="accordian">Contact Information</button>
+		<div>
+		<div class="tk-ff-basic-gothic-pro"; panel>
+			</div>
 	
 	<div></div>
 	<div class="flex center">
@@ -48,7 +85,6 @@
 		
 	</body>
 	
-	<footer>
-	</footer>
-	
+	<footer>Copyright &copy;</footer>
+			
 </html>
